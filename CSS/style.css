@@ -25,6 +25,7 @@ h2 {
 
 .mediaButton {
   font-size: 40px;
+  color: #6E767F;
 }
 
 #websiteContainer {
@@ -73,10 +74,16 @@ h2 {
   justify-content: center;
   align-items: center;
   align-self: center;
+  color: #FFFFFF;
 }
 
 #resumeName {
   padding-top: 30px;
+  font-size: 80px;
+}
+
+#resumeTitle {
+  font-size: 35px;
 }
 
 #aboutContainer {
@@ -126,8 +133,8 @@ h2 {
 }
 
 .projectCardImage {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 
 .projectCardImageContainer {
