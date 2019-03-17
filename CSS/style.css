@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+#educationTitleContainer, #projectsTitleContainer, #skillsTitleContainer, #volunteerTitleContainer, #contactTitleContainer {
+  margin: 40px 0;
+}
+
+#educationContainer, #projectsContainer, #skillsContainer, #volunteerContainer, #contactContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DCD9D9;
+}
+
+#educationContainer, #skillsContainer, #contactContainer {
+  background-color: #F2F2F5;
+}
+
+.mediaButton {
+  font-size: 40px;
+}
+
+#websiteContainer {
+  width: 100%;
+}
+
+#navbarHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navBarContainer {
+  background: #FFFFFF;
+}
+
+#resumeNavBar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#resumeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#heroContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#heroImage {
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  opacity: 0.7;
+}
+
+#heroTextContainer {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#resumeName {
+  padding-top: 30px;
+}
+
+#aboutContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutTitleContainer {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutContent {
+  width: 75%;
+}
+
+.educationCard, .volunteerCard {
+  margin-bottom: 30px;
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.card-text {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#mtechText, #launfalText {
+  margin-left: 20px;
+}
+
+.educationButton, .volunteerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsCard {
+  flex-direction: row;
+  height: auto;
+  width: 60%;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.projectCardImage {
+  width: 80%;
+  height: 80%;
+}
+
+.projectCardImageContainer {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCardHeaderContainer {
+  text-align: center;
+}
+
+.projectCardContentContainer {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectCardLinkContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#skillsContentContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#skillsList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.skillsListItem {
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 10px;
+}
