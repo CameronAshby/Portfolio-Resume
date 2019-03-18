@@ -6,6 +6,10 @@ h2 {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  color: #6995C8;
+}
+
 #educationTitleContainer, #projectsTitleContainer, #skillsTitleContainer, #volunteerTitleContainer, #contactTitleContainer {
   margin: 40px 0;
 }
@@ -102,6 +106,7 @@ h2 {
 
 #aboutContent {
   width: 75%;
+  font-size: 16px;
 }
 
 .educationCard, .volunteerCard {
@@ -111,7 +116,7 @@ h2 {
 }
 
 .card-text {
-  margin-top: 20px;
+  margin: 20px 0;
   font-size: 12px;
 }
 
@@ -133,12 +138,13 @@ h2 {
 }
 
 .projectCardImage {
-  width: 70%;
-  height: 70%;
+  width: 200px;
+  height: 200px;
 }
 
 .projectCardImageContainer {
-  width: 35%;
+  margin: 20px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,6 +177,7 @@ h2 {
 #skillsList {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   width: 80%;
   margin-bottom: 30px;
@@ -181,4 +188,91 @@ h2 {
   text-align: center;
   width: 30%;
   margin-bottom: 10px;
+  border-bottom: 1px solid #DCD9D9;
+}
+
+#contactContentContainer {
+  margin-bottom: 60px;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#contactInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#mediaIcon {
+  padding-right: 5px;
+}
+
+#mediaContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 850px) {
+  #educationTitleContainer, #projectsTitleContainer, #skillsTitleContainer, #volunteerTitleContainer, #contactTitleContainer {
+    margin: 20px 0;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  #aboutContent {
+    font-size: 12px;
+  }
+  #resumeName {
+    font-size: 50px;
+    text-align: center;
+  }
+  #resumeTitle {
+    font-size: 25px;
+  }
+  #aboutContainer {
+    flex-direction: column;
+    height: 100%;
+  }
+  #aboutContent {
+    margin-bottom: 30px;
+  }
+  #aboutTitleContainer {
+    width: 80%;
+    margin: 20px 0;
+  }
+  .educationCard, .volunteerCard {
+    width: 90%;
+  }
+  .projectsCard {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectCardImageContainer {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectCardContentContainer {
+    width: 90%;
+  }
+  .projectCardLinkContainer, .volunteerButton {
+    font-size: 14px;
+  }
+  .skillsListItem {
+    font-size: 15px;
+  }
+  #contactContentContainer {
+    text-align: center;
+  }
 }
